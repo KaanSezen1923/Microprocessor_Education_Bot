@@ -129,7 +129,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Sentence Transformers for embedding generation
 - ChromaDB for vector storage
 
-![image](https://github.com/user-attachments/assets/c7c7f1b8-3ed2-4b0c-88a3-8e27942b1388)
+
 
 - Google's Gemini AI for response generation
 - Streamlit for the user interface
@@ -137,3 +137,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Support
 
 If you encounter any issues or have questions, please open an issue in the GitHub repository.
+
+## Results 
+![image](https://github.com/user-attachments/assets/c7c7f1b8-3ed2-4b0c-88a3-8e27942b1388)
