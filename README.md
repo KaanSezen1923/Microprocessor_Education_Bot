@@ -128,6 +128,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - LangChain for document processing utilities
 - Sentence Transformers for embedding generation
 - ChromaDB for vector storage
+
+![image](https://github.com/user-attachments/assets/c7c7f1b8-3ed2-4b0c-88a3-8e27942b1388)
+
 - Google's Gemini AI for response generation
 - Streamlit for the user interface
 
