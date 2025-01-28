@@ -6,7 +6,7 @@ from audio_recorder_streamlit import audio_recorder
 from gtts import gTTS
 import speech_recognition as sr 
 
-st.set_page_config(page_title="Mikroişlemciler Eğitim Asistanı")
+st.set_page_config(page_title="MicroMentor AI")
 with st.sidebar:
     gemini_api_key=st.text_input("Enter Gemini Api Key",type="password")
     
@@ -37,8 +37,8 @@ def play_response_text(response_text, lang="tr"):
         st.audio(audio_bytes, format="audio/mp3")
     os.remove("response.mp3")
 
-st.title("Mikroişlemciler Eğitim Asistanı")
-st.write("Bu asistan, mikroişlemcilerle ilgili sorularınıza yanıt vermek için tasarlanmıştır. Sorularınızı aşağıdaki kutuya yazabilirsiniz.")
+st.title("Microprocessor Education Bot")
+st.write("This assistant is designed to answer your questions about microprocessors. You can type your questions in the box below.")
 
 
 if "messages" not in st.session_state:
