@@ -1,4 +1,6 @@
 streamlit==1.32.2
+pysqlite3-binary
+
 requests==2.31.0
 deep-translator==1.9.1
 audio-recorder-streamlit==0.0.4
