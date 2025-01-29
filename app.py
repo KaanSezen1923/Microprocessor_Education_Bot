@@ -4,6 +4,11 @@ import os
 import google.generativeai as genai
 from deep_translator import GoogleTranslator
 from dotenv import load_dotenv
+import sys
+import pysqlite3
+
+sys.modules["sqlite3"] = pysqlite3
+
 
 st.set_page_config(page_title="Microprocessor AI")
 with st.sidebar:
